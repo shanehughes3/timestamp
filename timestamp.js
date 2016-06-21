@@ -28,7 +28,7 @@ app.get("/*", function(req, res) {
     res.end(JSON.stringify(outObj));
 });
 
-app.listen(80);
+app.listen(process.env.PORT || 80);
 
 function printDate(reqDate) {
     if (reqDate.getTime()) {
