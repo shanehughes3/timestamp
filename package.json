@@ -1,25 +1,25 @@
 {
-  "name": "timestamp",
-  "version": "1.0.0",
-  "description": "timestamp.js ============",
+    "name": "timestamp",
+    "version": "1.0.0",
+    "description": "timestamp.js ============",
     "main": "timestamp.js",
-    "start": "node timestamp.js",
     "dependencies": {
 	"express": "^4.14.0",
 	"jade": "^1.11.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shanehughes3/timestamp.git"
-  },
-  "author": "Shane Hughes",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shanehughes3/timestamp/issues"
-  },
-  "homepage": "https://github.com/shanehughes3/timestamp#readme"
+    },
+    "devDependencies": {},
+    "scripts": {
+	"start": "node timestamp.js",
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/shanehughes3/timestamp.git"
+    },
+    "author": "Shane Hughes",
+    "license": "ISC",
+    "bugs": {
+	"url": "https://github.com/shanehughes3/timestamp/issues"
+    },
+    "homepage": "https://github.com/shanehughes3/timestamp#readme"
 }
