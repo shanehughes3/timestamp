@@ -1,4 +1,9 @@
 timestamp.js
 ============
 
+Node.js API
+
+When passed either a Unix timestamp (in ms) or a natural language date, returns
+a JSON object containing both date formats.
+
 Created as per curriculum for freecodecamp.com.

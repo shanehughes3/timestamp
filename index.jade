@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+	head
+		title Timestamp microservice
+	body
+		h1 Timestamp API
+		p.
+			Parses a given date in either natural language
+			or Unix time and returns an object containing both
+			representations of the given date.
+		h4 Examples
+		p https://timestamp-sh.herokuapp.com/June%2020,%202016
+		p https://timestamp-sh.herokuapp.com/1466398800000
+		h4 Output
+		p {"unix":1466398800000,"natural":"June 20, 2016"}
+		
